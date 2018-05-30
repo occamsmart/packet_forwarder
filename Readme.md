@@ -56,7 +56,7 @@ To configure the Packet Forwarder to properly connect to the OccamSmart Smart Ga
         
         /dev/serial/by-id/usb-Microchip_Technology_Inc._MCP2200_USB_Serial_Port_Emulator_SOMEIDENTIFIER-if00
 
-    ```json
+    ```
     {
         "gateway_conf": {
             "serial_device_name":   "/dev/serial/by-id/usb-Microchip_Technology_Inc._MCP2200_USB_Serial_Port_Emulator_SOMEIDENTIFIER-if00",
@@ -75,7 +75,7 @@ To configure the Packet Forwarder to properly connect to the OccamSmart Smart Ga
 
     So for example, if the Gateway Board has enumerated as `COM4`, your `serial_device_name` should look as follows:
 
-    ```json
+    ```
     {
         "gateway_conf": {
             "serial_device_name":   "/dev/ttyS3",
@@ -88,7 +88,7 @@ To configure the Packet Forwarder to properly connect to the OccamSmart Smart Ga
 
 2. Gateway ID: You should configure a unique 16 hexadecimal digit Gateway ID for your gateway, e.g.
 
-    ```json
+    ```
     {
         "gateway_conf": {
             ...
